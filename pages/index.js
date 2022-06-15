@@ -13,55 +13,61 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="#">buyangpl.com!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          <span>스틸 &#183; 스테인레스, 배관 부속 자재</span>
+          <code className={styles.code}>전문업체입니다</code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://minishop.gmarket.co.kr/buyangpl" className={styles.card}>
+            <h2>G마켓 &rarr;</h2>
+            <img src="https://pics.gmarket.co.kr/pc/single/kr/common/image__logo.png" width="180px" height="80px" alt="gmarket-logo"></img>
+            <p>부양PL배관자재총판</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://stores.auction.co.kr/BuyangPL" className={styles.card}>
+            <h2>옥션 &rarr;</h2>
+            <img src="http://image.auction.co.kr/hanbando/202110/d337d318-1aeb-4902-abf7-e407d7f0d1a1.png" width="200px" height="75px" alt="auction-logo"></img>
+            <p>부양PL 스토어</p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="http://pf.kakao.com/_ESaYb/chat"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>카카오톡 문의</h2>
+            <img src="https://i.imgur.com/YB8iAUD.png" alt="kakao-chat"></img>
+            <p>운영시간:<br></br> 월-금 09:00 ~ 17:00</p>
+          </a>
+
+          {/* <a
+            href="#"
+            className={styles.card}
+          >
+            <h2></h2>
+            <img src="https://i.imgur.com/bZxD76S.jpg" width="100px" height="100px" alt="auction-logo"></img>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+            
             </p>
-          </a>
+          </a> */}
         </div>
       </main>
 
-      <footer className={styles.footer}>
+      <footer className={styles.footer} align="center">
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <span className={styles.logo}>
+          경기도 안산시 단원구 원곡동 994-5 | 대표 : 김영숙 | 대표전화 : 031-491-8150~1 | 팩스 : 031-491-8152
+          {/* <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
+          </span> */}
+          <br></br>
+          Copyright © BUYANG PL. All rights reserved.
         </a>
       </footer>
     </div>
