@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <Navbar />
       <h1 className="text-5xl font-bold text-center text-teal-500">Buyang PL</h1>
+      <Hero />
     </>
   );
 }
